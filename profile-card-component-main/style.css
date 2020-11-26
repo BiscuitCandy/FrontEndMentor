@@ -1,0 +1,86 @@
+body{
+    margin: auto;
+    padding: auto;
+    width: 1440px;
+    height: 700px;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url("images/bg-pattern-top.svg");
+    background-position: -700px -900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.back{
+    background-image: url("images/bg-pattern-bottom.svg");
+    background-position: 500px 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    z-index: 2;
+}
+
+.profile{
+    background: #ffffff;
+    width: 24%;
+    height: 50%;
+    transform: translate(150%, 50%);
+    border-radius: 20px;
+}
+
+#profileb{
+    position: absolute;
+    width: -webkit-fill-available;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+#image{
+    border-radius: 50%;
+    transform: translate(125px, 100px);
+    border: 5px white;
+    border-style: solid;
+}
+
+#name {
+    font-size: large;
+    font-weight: 700;
+    font-family: "Kumbh Sans";
+    text-align: center;
+    position: relative;
+    transform: translate(-10px, 120px);
+    color: hsl(229, 23%, 23%);
+}
+
+#age{
+    font-size: large;
+    font-weight: 700;
+    text-align: right;
+    color: hsl(0, 0%, 59%);
+}
+
+#city{
+    font-size: medium;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    color: hsl(0, 0%, 59%);
+    transform: translate(-10px, 125px);
+}
+
+.info{
+    text-align: center;
+    word-spacing: 50px;
+    transform: translate(0px, 170px);
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+#flw{
+    font-size: small;
+    transform: translate(-2px, 170px);
+    word-spacing: 55px;
+    text-align-last: center;
+    text-align: center;
+}
